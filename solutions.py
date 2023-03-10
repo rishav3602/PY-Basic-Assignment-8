@@ -14,17 +14,20 @@
 ## Answers...
 
 """
-1. No, the Python Standard Library is not included with PyInputPlus. However, PyInputPlus is built on top of the standard library's input() function and provides additional features for user input validation and error handling.
+1. No, the Python Standard Library is not included with PyInputPlus. However, PyInputPlus is built on top of the standard library's
+input() function and provides additional features for user input validation and error handling.
 
 -----------------------------------------------------------------------------------------
 
 
 
-2. PyInputPlus is commonly imported with the alias 'pypi' to make it easier and quicker to refer to the library in the code. It also avoids conflicts with other libraries or modules that may have similar names or attributes.
+2. PyInputPlus is commonly imported with the alias 'pypi' to make it easier and quicker to refer to the library in the code. It also 
+avoids conflicts with other libraries or modules that may have similar names or attributes.
 
 -----------------------------------------------------------------------------------------
 
-3. inputInt() is used to ensure that the user enters an integer value, while inputFloat() is used to ensure that the user enters a floating-point number.
+3. inputInt() is used to ensure that the user enters an integer value, while inputFloat() is used to ensure that the user enters a 
+floating-point number.
 
 -----------------------------------------------------------------------------------------
 
@@ -38,15 +41,19 @@ The min and max arguments ensure that the input is between 0 and 99.
 
 -----------------------------------------------------------------------------------------
 
-5.The keyword arguments allowRegexes and blockRegexes are used to specify regular expressions that are either allowed or blocked in user input. If allowRegexes is specified, only input that matches one of the regular expressions will be allowed. If blockRegexes is specified, any input that matches one of the regular expressions will be blocked.
+5.The keyword arguments allowRegexes and blockRegexes are used to specify regular expressions that are either allowed or blocked in 
+user input. If allowRegexes is specified, only input that matches one of the regular expressions will be allowed. If blockRegexes is 
+specified, any input that matches one of the regular expressions will be blocked.
 
 -----------------------------------------------------------------------------------------
 
-6.If a blank input is entered three times using inputStr(limit=3), the function will raise a RetryLimitException, indicating that the user has exceeded the maximum number of allowed retries.
+6.If a blank input is entered three times using inputStr(limit=3), the function will raise a RetryLimitException, indicating that the 
+user has exceeded the maximum number of allowed retries.
 
 -----------------------------------------------------------------------------------------
 
-7.If a blank input is entered three times using inputStr(limit=3, default='hello'), the function will return the default value 'hello' after the third retry, indicating that the user has exceeded the maximum number of allowed retries.
+7.If a blank input is entered three times using inputStr(limit=3, default='hello'), the function will return the default value 'hello' 
+after the third retry, indicating that the user has exceeded the maximum number of allowed retries.
 
 -----------------------------------------------------------------------------------------
 """
